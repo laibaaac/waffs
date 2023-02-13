@@ -19,4 +19,9 @@ Ik ga de eerste user story uitwerken, zodra ik een api vind die past bij mijn ei
 ## Schetsen 
 Aan de hand van de User story en API heb ik de volgende schetsen gemaakt. 
 
-1. 
+1. <img width="264" alt="Schermafbeelding 2023-02-13 om 13 56 35" src="https://user-images.githubusercontent.com/94360732/218464349-8ac01f77-12a7-48c9-b9f8-9cf8c0e142b0.png">
+
+2. <img width="264" alt="Schermafbeelding 2023-02-13 om 13 56 47" src="https://user-images.githubusercontent.com/94360732/218464366-ffad99f6-46c0-4a3d-aec6-bb3436a1defe.png">
+
+3. <img width="387" alt="Schermafbeelding 2023-02-13 om 13 56 54" src="https://user-images.githubusercontent.com/94360732/218464375-d1d54a35-86e1-4621-baf5-0e8988a0f750.png">
+
