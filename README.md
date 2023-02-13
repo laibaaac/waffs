@@ -16,7 +16,7 @@ As a student front-end developer i want to look at affirmative web design quotes
 
 Ik ga de eerste user story uitwerken, zodra ik een api vind die past bij mijn eigen user story, ga ik die uitwerken. 
 
-### Schetsen 
+## Schetsen 
 Aan de hand van de User story en API heb ik de volgende schetsen gemaakt. 
 
 1. 
