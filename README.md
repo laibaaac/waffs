@@ -1,6 +1,6 @@
 # Web app from scratch 
 
-welkom bij mijn repo voor het vak web app from scratch 
+### Welkom bij mijn repo voor het vak web app from scratch! 
 
 ## Intro 
 De komende drie weken gaan we een client side Single Page web App (SPA) maken.
