@@ -25,6 +25,10 @@ Aan de hand van de User story en API heb ik de volgende schetsen gemaakt.
 
 3. <img width="200" alt="Schermafbeelding 2023-02-13 om 13 56 54" src="https://user-images.githubusercontent.com/94360732/218464375-d1d54a35-86e1-4621-baf5-0e8988a0f750.png">
 
+<img width="327" alt="Schermafbeelding 2023-01-10 om 12 27 42" src="https://user-images.githubusercontent.com/94360732/218745817-1aa39593-1534-4ba4-95a8-ff83d036cb7f.png">
+
+
+
 ik ga uiteindelijk de eerste img uitwerken, ik vind dat de quotes het beste daar passen. 
 
 
