@@ -1,7 +1,9 @@
-console.log("helloooo");
 
 const hierin= $('h1');
 const auteur= $('h2');
+const deBTN = $('button');
+
+
 
 
 fetchData();
@@ -17,19 +19,45 @@ function fetchData (){
                         // iets gaan doen met de data
                         // data, h1 veranderen naar naam
                         changeHTML(data)
+
+                    
                     })
 }
 
 function changeHTML (data) {
-    console.log(data)
+    // console.log(data)
     
-    const me = data[0].text
+    // let me = 
+
+    // let aut = data[0].author
+
+    // const uhhhh = getQuoteOnClick.randomAuthor
+    // const hmmm = getQuoteOnClick.randomQuote
    
-    hierin.innerHTML = me
+    hierin.innerHTML = data[0].text
+    auteur.innerHTML = data[0].author
+
+    // deBTN.innerText = uhhhh
+    // deBTN.innerText = hmmm
 
 
+     deBTN.addEventListener("click", () => {
+        const randomnumer = Math.floor(Math.random()*11);
+        
+        const randomQuote = data[randomnumer].text;
+        const randomAuthor = data[randomnumer].author; 
+    
 
+        hierin.innerHTML = randomQuote
+        auteur.innerHTML = randomAuthor
+    
+     })
 }
+
+
+
+
+// console.log(counter);
 
 function $ (element) {
     return document.querySelector(element)
