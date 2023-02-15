@@ -25,20 +25,8 @@ function fetchData (){
 }
 
 function changeHTML (data) {
-    // console.log(data)
-    
-    // let me = 
-
-    // let aut = data[0].author
-
-    // const uhhhh = getQuoteOnClick.randomAuthor
-    // const hmmm = getQuoteOnClick.randomQuote
-   
     hierin.innerHTML = data[0].text
     auteur.innerHTML = data[0].author
-
-    // deBTN.innerText = uhhhh
-    // deBTN.innerText = hmmm
 
 
      deBTN.addEventListener("click", () => {
@@ -56,8 +44,6 @@ function changeHTML (data) {
 
 
 
-
-// console.log(counter);
 
 function $ (element) {
     return document.querySelector(element)
