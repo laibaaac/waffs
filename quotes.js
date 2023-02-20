@@ -16,6 +16,7 @@ function fetchData() {
             // iets gaan doen met de data
             // data, h1 veranderen naar naam
             changeHTML(data)
+            console.log(data)
 
 
     })
@@ -27,7 +28,7 @@ function changeHTML(data) {
 
 
     deBTN.addEventListener("click", () => {
-        const randomnumer = Math.floor(Math.random() * 11);
+        const randomnumer = Math.floor(Math.random() * data.length);
 
         const randomQuote = data[randomnumer].text;
         const randomAuthor = data[randomnumer].author;
