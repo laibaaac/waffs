@@ -18,7 +18,6 @@ function fetchData() {
             changeHTML(data)
             console.log(data)
 
-
     })
     }
 
