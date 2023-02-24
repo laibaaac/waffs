@@ -21,3 +21,7 @@ button{
     height: 5em;
     background-color: pink;
 }
+
+.hide {
+    display: none;
+}
