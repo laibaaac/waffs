@@ -1,8 +1,5 @@
 const hierin = $('h1');
 const auteur = $('h2');
-// const deBTN = $('button');
-// const loadingEl = $('.js-loader');
-// const quoteContainer = $('.js-quote-content');
 
 export function changeHTML(data) {
     // data = []; //zo kan ik mijn error laten zien, want zeg ik dat ik geen data krijg
