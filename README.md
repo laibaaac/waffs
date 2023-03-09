@@ -1,6 +1,6 @@
-## Welkom bij mijn repo voor het vak web app from scratch! 
+## No more Imposter syndrome!!!
 
-<img width="500" alt="Schermafbeelding 2023-03-09 om 11 37 47" src="https://user-images.githubusercontent.com/94360732/223999596-5fc46be7-22fb-4af4-b402-169f2e12ac18.png">
+<img width="600" alt="Schermafbeelding 2023-03-09 om 11 37 47" src="https://user-images.githubusercontent.com/94360732/223999596-5fc46be7-22fb-4af4-b402-169f2e12ac18.png">
 
 
 ## Intro 
@@ -21,10 +21,14 @@ Ik vertel nog heel even hoe ik mijn api gemaakt:
 <img width="1216" alt="Schermafbeelding 2023-03-09 om 11 49 27" src="https://user-images.githubusercontent.com/94360732/224002155-f3206ec3-adbc-4ab7-90a8-ce095e778640.png">
 
 2. Daarna heb ik de link van Ben Borgers gebruikt
-< https://opensheet.elk.sh/spreadsheet_id/tab_name >
+`https://opensheet.elk.sh/spreadsheet_id/tab_name`
 
-3. mijn eigen spreadsheet gelinked
-< https://opensheet.elk.sh/1W7nmmrM1C2uX6_nRSsXP5x3A7R1A9b5P6Q-fJhtwLQ8/blad1 >
+3. Mijn eigen spreadsheet gelinked
+`https://opensheet.elk.sh/1W7nmmrM1C2uX6_nRSsXP5x3A7R1A9b5P6Q-fJhtwLQ8/blad1`
+
+4. Json file (automatisch gemaakt)
+<img width="500" alt="Schermafbeelding 2023-03-09 om 11 54 46" src="https://user-images.githubusercontent.com/94360732/224003237-06540ba6-bfae-4d36-b011-f7f7221e9af3.png">
+
 
 
 ## Schetsen
@@ -58,9 +62,36 @@ De volgende features heeft mijn applicatie
 ## Could have
 - Filteren (ik had het geprobeerd bij about me te filteren op quotes en auteurs, maar het lukte mij niet zo goed)
 
+## Activity Flow
+### Wireflow
+<img width="600" alt="Schermafbeelding 2023-03-09 om 11 59 38" src="https://user-images.githubusercontent.com/94360732/224004200-6b22ad48-c0ac-485c-975e-86c26ec4d65c.png">
+
+<img width="700" alt="Schermafbeelding 2023-03-09 om 12 20 24" src="https://user-images.githubusercontent.com/94360732/224008737-3905382a-520b-43ed-bedf-810b2a02941c.png">
 
 
 
+## Routie
+Ik heb de router routie gebruikt, ik volgde de voorbeeld van joost. 
+Ik heb de volgende gedaan:
+- vendor map aangemaakt en de routie daarin gezet 
+- daarna heb ik mijn router gemaakt 
+
+`import './vendor/routie.min.js'
+import { toggleNav } from './change.js';
+
+
+export function handleRoutes() {
+    console.log('hoiiii');
+  routie(
+    {
+    'home': () => { 
+      toggleNav('home')
+    },
+    'about': () => {
+      toggleNav('about');
+    }
+  })
+}`
 
 
 
