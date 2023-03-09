@@ -47,8 +47,7 @@ nav ul li a:hover{
     background-color: rgba(255, 255, 255, 0.5) ;
 }
 
-p:first-of-type{
-    top: 50%;
+.js-empty p{
     font-size: 25px;
     font-weight: bold;
 }
@@ -76,11 +75,11 @@ h2{
     width: 80vmin;
     position: absolute;
     padding: 0;
-    transform: translate( 60% , 120% );
+    transform: translate(60% , 150% );
 }
 
 #home{
-    top: -10%;
+    top: -5%;
     left: .1%;
 }
 
