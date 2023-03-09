@@ -9,7 +9,7 @@ De aankomende weken gaan wij dus hardcore coderen!
 
 
 ## User story 
-officiele user story is As a student Digital Design, I want to look at inspiring web design quotes, to get some fresh energy when I'm down while working on crazy deadlines.
+Officiele user story is "As a student Digital Design, I want to look at inspiring web design quotes, to get some fresh energy when I'm down while working on crazy deadlines"
 
 Maar ik hoop dat ik de aankomende weken ook mijn eigen user story kan uitwerken. 
 As a student front-end developer i want to look at affirmative web design quotes, so that imposter syndrome doesn't hit me hard. 
