@@ -20,8 +20,9 @@ export async function getData(id = null) {
         } else {
             console.log('omg error!!');
             return [];
-            // ik krijg heir niks (http error)
+            // ik krijg hier niks (http error)
         }
+
     // hier fetch ik een error, alles wat er fout gaat in de try, wordt hier gepakt en daarna naar mijn main.js gestuurd 
     } catch (error) {
         console.log(error);
