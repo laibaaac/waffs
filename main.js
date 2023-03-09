@@ -30,7 +30,7 @@ function getRandomQuote() {
         setTimeout(() => {
             changeHTML(data);
 
-            // Loader verstoppen
+            // Loader verstoppen 
             toggleElement('.js-loader');
 
             // Quotes ontvangen! Laat ze zien
