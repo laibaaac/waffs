@@ -66,7 +66,8 @@ De volgende features heeft mijn applicatie
 ### Wireflow
 <img width="600" alt="Schermafbeelding 2023-03-09 om 11 59 38" src="https://user-images.githubusercontent.com/94360732/224004200-6b22ad48-c0ac-485c-975e-86c26ec4d65c.png">
 
-<img width="700" alt="Schermafbeelding 2023-03-09 om 12 20 24" src="https://user-images.githubusercontent.com/94360732/224008737-3905382a-520b-43ed-bedf-810b2a02941c.png">
+<img width="800" alt="Schermafbeelding 2023-03-09 om 12 23 29" src="https://user-images.githubusercontent.com/94360732/224009232-ead092c5-8196-494f-bd73-39abf45ad308.png">
+
 
 
 
