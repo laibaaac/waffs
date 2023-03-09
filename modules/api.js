@@ -12,6 +12,8 @@ export async function getData(id = null) {
         const response = await fetch(url);
         // hier fetch ik de url 
 
+        //een boolean om te kijken als de response succesvol was
+        //bron https://developer.mozilla.org/en-US/docs/Web/API/Response/ok 
         if (response.ok) {
         //  hier krijg ik mijn data, vanuit de spreadsheet terug, ipv andere dingen 
             const result = await response.json();
