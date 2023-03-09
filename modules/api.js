@@ -1,4 +1,5 @@
 // hier krijg ik mijn data uit mijn api!
+// async await gebruik ik hier zodat het ophalen van de api rustig en  laat ik de code wachten totdat de promise is uitgevoerd en kan ik ook beter een error pakken 
 
 export async function getData(id = null) {
 

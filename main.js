@@ -34,7 +34,7 @@ function getRandomQuote() {
     toggleElement('.js-loader');
     //zie change.js om te kijken wat ik precies met toggle element bedoel 
 
-    // loader!!!
+    // loading statee!!!!
     getData().then(data => {
         console.log('GOT DATA!!');
 
@@ -43,8 +43,8 @@ function getRandomQuote() {
 
             // Loader verstoppen 
             toggleElement('.js-loader');
-            
-            // Quotes ontvangen! Laat ze zien
+
+            // Quotes ontvangen! Laat ze zien (weet je nog ik had de classlist hide gezet wanneer ik de data krijg!)
             if (quoteContainer.classList.contains('hide')) {
                 toggleElement('.js-quote-content');
             }
@@ -53,7 +53,8 @@ function getRandomQuote() {
         // een timing zetten, zodat ik de loading state voor een paar ms zie 
         
 
-    })
+    }) 
+    //bron: https://learnwithparam.com/blog/how-to-handle-fetch-errors/
     // hier throw ik mijn error die ik van change.js krijg en laat ik de volgende zien in mijn html (fetch error)
     .catch((error) => {
         showErrorMessage('Fetch error');
